@@ -1,7 +1,7 @@
 <div align="center">
 
-  <!-- Animated Header Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:0f172a&height=210&section=header&text=ESTEBAN%20JASSIR&fontSize=48&fontColor=38bdf8&animation=twinkling&fontAlignY=36&desc=Software%20Engineer%20%7C%20AI%20Systems%20Architect&descSize=17&descAlignY=60&descAlign=50" width="100%" />
+  <!-- High-Tech Slice Header Banner -->
+  <img src="https://capsule-render.vercel.app/api?type=slice&color=0:0d1117,50:1e293b,100:0284c7&height=200&section=header&text=ESTEBAN%20JASSIR&fontSize=48&fontColor=ffffff&fontAlignY=40&desc=Software%20Engineer%20%7C%20AI%20Systems%20Architect&descSize=17&descAlignY=65&descAlign=50" width="100%" />
 
   <!-- Animated Typing Subtitle -->
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&lines=Orquestaci%C3%B3n+de+Agentes+de+IA+%26+Sistemas+Aut%C3%B3nomos;Backend+Multi-Lenguaje+(Go,+Rust,+Java,+.NET,+Python);Fullstack+%26+Web+Pro+(TypeScript,+React,+Next.js,+Node.js)" alt="Typing SVG" />
