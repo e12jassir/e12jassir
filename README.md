@@ -169,15 +169,11 @@ Diseñé **Jules** cansado de re-explicarle el contexto a chatbots genéricos. J
 
 ## 📊 Dashboard de Actividad & Estadísticas
 
-<div align="center">
-  <table border="0">
-    <tr>
-      <td>
-        <img src="https://github-readme-stats.vercel.app/api?username=e12jassir&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="175" alt="GitHub Stats" />
-      </td>
-      <td>
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=e12jassir&layout=compact&theme=tokyonight&hide_border=true" height="175" alt="Top Languages" />
-      </td>
-    </tr>
-  </table>
-</div>
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=e12jassir&theme=tokyo-night&hide_border=true&bg_color=0d1117" alt="e12jassir Activity Graph" width="100%" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats-eight.vercel.app/api?username=e12jassir&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Estadísticas de e12jassir" width="48%" />
+  <img src="https://github-readme-stats-eight.vercel.app/api/top-langs/?username=e12jassir&layout=compact&theme=tokyonight&hide_border=true" alt="Lenguajes Principales" width="48%" />
+</p>
