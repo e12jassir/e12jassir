@@ -4,14 +4,12 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:0f172a&height=210&section=header&text=ESTEBAN%20JASSIR&fontSize=48&fontColor=38bdf8&animation=twinkling&fontAlignY=36&desc=Software%20Engineer%20%7C%20AI%20Systems%20Architect&descSize=17&descAlignY=60&descAlign=50" width="100%" />
 
   <!-- Animated Typing Subtitle -->
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&lines=Orquestaci%C3%B3n+de+Agentes+de+IA+%26+Sistemas+Aut%C3%B3nomos;Backend+Multi-Lenguaje+(Go,+Rust,+Java,+.NET,+Python);Fullstack+%26+Web+Pro+(TypeScript,+React,+Next.js,+Node.js)" alt="Typing SVG" />
-  </a>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&lines=Orquestaci%C3%B3n+de+Agentes+de+IA+%26+Sistemas+Aut%C3%B3nomos;Backend+Multi-Lenguaje+(Go,+Rust,+Java,+.NET,+Python);Fullstack+%26+Web+Pro+(TypeScript,+React,+Next.js,+Node.js)" alt="Typing SVG" />
 
   <br /><br />
 
-  ![Status](https://img.shields.io/badge/●-Online_%26_Building-38bdf8?style=flat-square&labelColor=0d1117)
-  ![Focus](https://img.shields.io/badge/Focus-AI_Agents_%26_Scalable_Backends-8A2BE2?style=flat-square&labelColor=0d1117)
+  <img src="https://img.shields.io/badge/●-Online_%26_Building-38bdf8?style=flat-square&labelColor=0d1117" alt="Status" />
+  <img src="https://img.shields.io/badge/Focus-AI_Agents_%26_Scalable_Backends-8A2BE2?style=flat-square&labelColor=0d1117" alt="Focus" />
 
 </div>
 
@@ -175,15 +173,11 @@ Diseñé **Jules** cansado de re-explicarle el contexto a chatbots genéricos. J
   <table border="0">
     <tr>
       <td>
-        <img src="https://github-readme-stats.vercel.app/api?username=e12jassir&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="175" />
+        <img src="https://github-readme-stats.vercel.app/api?username=e12jassir&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="175" alt="GitHub Stats" />
       </td>
       <td>
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=e12jassir&layout=compact&theme=tokyonight&hide_border=true" height="175" />
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=e12jassir&layout=compact&theme=tokyonight&hide_border=true" height="175" alt="Top Languages" />
       </td>
     </tr>
   </table>
-
-  <br />
-
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=e12jassir&theme=tokyonight&hide_border=true" width="95%" />
 </div>
