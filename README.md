@@ -1,7 +1,7 @@
 <div align="center">
 
-  <!-- Minimalist High-End Animated Header -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0e17,50:0f172a,100:1e1b4b&height=220&section=header&text=ESTEBAN%20MARRUGO&fontSize=48&fontColor=38bdf8&animation=twinkling&fontAlignY=38&desc=Systems%20%26%20Autonomous%20AI%20Engineer&descSize=17&descAlignY=62&descAlign=50" width="100%" />
+  <h1>ESTEBAN MARRUGO</h1>
+  <p><strong>Systems &amp; Autonomous AI Engineer</strong></p>
 
   <!-- Dynamic Typing Subtitle -->
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&pause=1200&color=38BDF8&center=true&vCenter=true&width=750&lines=Building+Autonomous+Agent+Runtimes+%26+Local-First+Engines;High-Performance+Systems+in+Go%2C+Rust+%26+Python;Hexagonal+Architecture+%7C+Event-Driven+Design;Terminal-Native+Workflows+(Linux%2C+Neovim%2C+Zellij)" alt="Typing SVG" />
@@ -153,8 +153,8 @@ Focused on building reliable, privacy-centric software using rigorous architectu
 
   ### 📈 Activity & Metrics
 
-  <img src="https://github-readme-stats.vercel.app/api?username=e12jassir&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0a0e17&title_color=38bdf8&icon_color=8A2BE2&text_color=e2e8f0" height="160" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=e12jassir&layout=compact&theme=tokyonight&hide_border=true&bg_color=0a0e17&title_color=38bdf8&text_color=e2e8f0" height="160" />
+  <img src="https://github-readme-stats.vercel.app/api?username=e12jassir&show_icons=true&hide_border=true&bg_color=00000000&title_color=38bdf8&icon_color=8A2BE2&text_color=e2e8f0" height="160" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=e12jassir&layout=compact&hide_border=true&bg_color=00000000&title_color=38bdf8&text_color=e2e8f0" height="160" />
 
   <br /><br />
 
