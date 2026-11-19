@@ -1,52 +1,70 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="414" height="196" viewBox="0 0 414 196" role="img" aria-label="Jules — Resident cognitive AI service for Linux.">
+<svg xmlns="http://www.w3.org/2000/svg" width="414" height="248" viewBox="0 0 414 248" role="img" aria-label="Jules — Resident cognitive AI service for Linux">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#131922"/>
+      <stop offset="0%" stop-color="#12141a"/>
       <stop offset="100%" stop-color="#0d1117"/>
     </linearGradient>
     <linearGradient id="topSheen" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#3a4659" stop-opacity="0"/>
-      <stop offset="25%" stop-color="#3a4659" stop-opacity="0.65"/>
-      <stop offset="75%" stop-color="#3a4659" stop-opacity="0.65"/>
-      <stop offset="100%" stop-color="#3a4659" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#3d4557" stop-opacity="0"/>
+      <stop offset="22%" stop-color="#3d4557" stop-opacity="0.65"/>
+      <stop offset="78%" stop-color="#3d4557" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#3d4557" stop-opacity="0"/>
     </linearGradient>
-    <radialGradient id="cornerGlow" cx="0.92" cy="0.08" r="0.55">
-      <stop offset="0%" stop-color="#2dd4bf" stop-opacity="0.06"/>
-      <stop offset="100%" stop-color="#2dd4bf" stop-opacity="0"/>
+    <radialGradient id="julesGlow" cx="0.5" cy="0.14" r="0.58">
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#fbbf24" stop-opacity="0"/>
     </radialGradient>
     <clipPath id="frame">
-      <rect width="414" height="196" rx="12"/>
+      <rect width="414" height="248" rx="13"/>
     </clipPath>
   </defs>
 
   <g clip-path="url(#frame)">
-    <rect x="0.5" y="0.5" width="413" height="195" rx="12" fill="url(#bg)" stroke="#222a36" stroke-width="1"/>
-    <rect width="414" height="196" fill="url(#cornerGlow)"/>
-    <line x1="16" y1="1.2" x2="398" y2="1.2" stroke="url(#topSheen)" stroke-width="1"/>
+    <rect x="0.5" y="0.5" width="413" height="247" rx="13" fill="url(#bg)" stroke="#232833" stroke-width="1"/>
+    <rect width="414" height="248" fill="url(#julesGlow)"/>
+    <line x1="18" y1="1.2" x2="396" y2="1.2" stroke="url(#topSheen)" stroke-width="1"/>
 
-    <!-- Header -->
-    <rect x="22" y="22" width="32" height="32" rx="8" fill="#161e29" stroke="#263142" stroke-width="1"/>
-    <circle cx="38" cy="38" r="6.5" fill="none" stroke="#f0f6fc" stroke-opacity="0.65" stroke-width="1.4"/>
-    <line x1="31.5" y1="31.5" x2="33.8" y2="33.8" stroke="#f0f6fc" stroke-opacity="0.65" stroke-width="1.3" stroke-linecap="round"/>
-    <line x1="44.5" y1="44.5" x2="42.2" y2="42.2" stroke="#f0f6fc" stroke-opacity="0.65" stroke-width="1.3" stroke-linecap="round"/>
-    <line x1="44.5" y1="31.5" x2="42.2" y2="33.8" stroke="#f0f6fc" stroke-opacity="0.65" stroke-width="1.3" stroke-linecap="round"/>
-    <line x1="31.5" y1="44.5" x2="33.8" y2="42.2" stroke="#f0f6fc" stroke-opacity="0.65" stroke-width="1.3" stroke-linecap="round"/>
-    <circle cx="38" cy="38" r="2.4" fill="#2dd4bf"/>
-    <text x="66" y="44" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17.5" font-weight="600" letter-spacing="-0.3" fill="#f0f6fc">Jules</text>
+    <!-- Upper cognitive daemon pipeline stage -->
+    <rect x="18" y="18" width="378" height="102" rx="9" fill="#090b0f" stroke="#1f242e" stroke-width="1"/>
+    <circle cx="32" cy="33" r="3" fill="#fbbf24">
+      <animate attributeName="opacity" values="1;0.4;1" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+    <text x="41" y="36" font-family="ui-monospace, 'SFMono-Regular', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" font-weight="700" letter-spacing="1.3" fill="#fbbf24">DAEMON</text>
+    <text x="382" y="36" text-anchor="end" font-family="ui-monospace, 'SFMono-Regular', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" fill="#6c7482">/run/jules.sock</text>
 
-    <!-- Category pill & link arrow -->
-    <rect x="282" y="27" width="85" height="22" rx="6" fill="#141b25" stroke="#242e3d" stroke-width="1"/>
-    <text x="324.5" y="41.5" text-anchor="middle" font-family="ui-monospace, 'SFMono-Regular', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9.5" font-weight="500" letter-spacing="1.0" fill="#6c7684">AI DAEMON</text>
-    <path d="M378 43 L388 33 M380 33 L388 33 L388 41" fill="none" stroke="#6c7684" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- 3-node architecture flow -->
+    <rect x="30" y="50" width="84" height="24" rx="5" fill="#11141c" stroke="#232833" stroke-width="1"/>
+    <text x="72" y="65.5" text-anchor="middle" font-family="ui-monospace, 'SFMono-Regular', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9.5" fill="#9ca3af">Sanitizer</text>
 
-    <!-- Description -->
-    <text x="22" y="86" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#919ba8">Resident cognitive AI service for Linux.</text>
-    <text x="22" y="107" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#919ba8">Episodic memory, local voice, smart model routing.</text>
+    <line x1="114" y1="62" x2="132" y2="62" stroke="#3e4554" stroke-width="1.2"/>
+    <path d="M129 59.5 L133 62 L129 64.5" fill="none" stroke="#3e4554" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
 
-    <!-- Footer -->
-    <line x1="22" y1="144" x2="392" y2="144" stroke="#1c232e" stroke-width="1"/>
-    <text x="22" y="171" font-family="ui-monospace, 'SFMono-Regular', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="400" letter-spacing="0.2">
-      <tspan fill="#2dd4bf" font-weight="600">03</tspan><tspan fill="#6c7684">&#160;&#160;&#x00b7;&#160;&#160;UNIX Socket IPC · LanceDB · 450+ Tests</tspan>
+    <rect x="134" y="50" width="124" height="24" rx="5" fill="#11141c" stroke="#fbbf24" stroke-opacity="0.7" stroke-width="1"/>
+    <text x="196" y="65.5" text-anchor="middle" font-family="ui-monospace, 'SFMono-Regular', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9.5" font-weight="500" fill="#f3f4f6">LanceDB + Ctx</text>
+
+    <line x1="258" y1="62" x2="276" y2="62" stroke="#3e4554" stroke-width="1.2"/>
+    <path d="M273 59.5 L277 62 L273 64.5" fill="none" stroke="#3e4554" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <rect x="278" y="50" width="106" height="24" rx="5" fill="#11141c" stroke="#232833" stroke-width="1"/>
+    <text x="331" y="65.5" text-anchor="middle" font-family="ui-monospace, 'SFMono-Regular', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9.5" fill="#9ca3af">Smart Router</text>
+
+    <!-- Non-blocking async background path -->
+    <path d="M331 74 L331 99 L302 99" fill="none" stroke="#3e4554" stroke-width="1.1" stroke-dasharray="2.5 2.5"/>
+    <circle cx="302" cy="99" r="2" fill="#fbbf24"/>
+    <text x="30" y="102" font-family="ui-monospace, 'SFMono-Regular', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9">
+      <tspan fill="#fbbf24" font-weight="600">0ms block</tspan><tspan fill="#6c7482">&#160;&#160;&#x00b7;&#160;&#160;async score &#x2192; embed &#x2192; WAL</tspan>
     </text>
+
+    <!-- Lower editorial -->
+    <text x="22" y="146" font-family="ui-monospace, 'SFMono-Regular', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" font-weight="500" letter-spacing="1.3" fill="#6c7482">
+      <tspan fill="#fbbf24" font-weight="600">03</tspan>&#160;&#160;/&#160;&#160;AI DAEMON
+    </text>
+    <path d="M380 146 L390 136 M382 136 L390 136 L390 144" fill="none" stroke="#6c7482" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <text x="22" y="174" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="19.5" font-weight="700" letter-spacing="-0.4" fill="#f3f4f6">Jules</text>
+    <text x="22" y="197" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#9ca3af">Resident cognitive AI service and OS layer for Linux.</text>
+
+    <line x1="22" y1="214" x2="392" y2="214" stroke="#1b2029" stroke-width="1"/>
+    <text x="22" y="234" font-family="ui-monospace, 'SFMono-Regular', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" font-weight="400" fill="#6c7482">UNIX Socket IPC&#160;&#160;&#x00b7;&#160;&#160;Local STT/TTS&#160;&#160;&#x00b7;&#160;&#160;450+ Tests</text>
   </g>
 </svg>

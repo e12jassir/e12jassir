@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="848" height="104" viewBox="0 0 848 104" role="img" aria-label="Engineering Principles — Low latency, fail-closed design, built for daily use">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#12141a"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+    <linearGradient id="topSheen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3d4557" stop-opacity="0"/>
+      <stop offset="22%" stop-color="#3d4557" stop-opacity="0.65"/>
+      <stop offset="78%" stop-color="#3d4557" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#3d4557" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="frame">
+      <rect width="848" height="104" rx="12"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect x="0.5" y="0.5" width="847" height="103" rx="12" fill="url(#bg)" stroke="#232833" stroke-width="1"/>
+    <line x1="20" y1="1.2" x2="828" y2="1.2" stroke="url(#topSheen)" stroke-width="1"/>
+
+    <line x1="283" y1="20" x2="283" y2="84" stroke="#1b2029" stroke-width="1"/>
+    <line x1="565" y1="20" x2="565" y2="84" stroke="#1b2029" stroke-width="1"/>
+
+    <text x="26" y="34" font-family="ui-monospace, 'SFMono-Regular', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" font-weight="500" letter-spacing="1.4" fill="#6c7482">
+      <tspan fill="#34d399" font-weight="600">01</tspan>&#160;&#160;LOW LATENCY
+    </text>
+    <text x="26" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#9ca3af">Sub-3s playback, ~28 MB binaries,</text>
+    <text x="26" y="76" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#9ca3af">non-blocking async persistence.</text>
+    <text x="308" y="34" font-family="ui-monospace, 'SFMono-Regular', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" font-weight="500" letter-spacing="1.4" fill="#6c7482">
+      <tspan fill="#34d399" font-weight="600">02</tspan>&#160;&#160;FAIL-CLOSED DESIGN
+    </text>
+    <text x="308" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#9ca3af">Dual-pass secret scrubbing, signed</text>
+    <text x="308" y="76" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#9ca3af">HLS proxies, strict SSRF checks.</text>
+    <text x="590" y="34" font-family="ui-monospace, 'SFMono-Regular', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" font-weight="500" letter-spacing="1.4" fill="#6c7482">
+      <tspan fill="#34d399" font-weight="600">03</tspan>&#160;&#160;BUILT FOR DAILY USE
+    </text>
+    <text x="590" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#9ca3af">Keyboard-first flows, zero bloat,</text>
+    <text x="590" y="76" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#9ca3af">native cross-platform builds.</text>
+  </g>
+</svg>
